@@ -52,7 +52,7 @@ output_loc = './tracking_imgs'
 output_loc_mask = './tracking_imgs_mask'
 
 
-test_video_path = '/Users/aymanjabaren/Documents/Projects/test_video.avi'
+test_video_path = './test_video.avi'
 
 
 if not os.path.exists('./tracking_imgs'):
@@ -171,7 +171,7 @@ convert_frames_to_video(pathIn, pathOut, fps)
 pathOut = 'video_boundbox.mp4'
 fps = 25.0
 output = output_loc + '/'
-convert_frames_to_video(output, pathOut, fps)
+#convert_frames_to_video(output, pathOut, fps)
 
 
 
